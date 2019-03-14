@@ -1,0 +1,33 @@
+#mapid 
+{
+    height: 100%; 
+}
+#mapid .leaflet-pane .leaflet-marker-pane img
+{
+   height:40px!important;
+}
+
+.map .overlay
+{
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+.leaflet-popup-content-wrapper
+{
+    background-color: #fff !important;
+    padding:30px;
+    color:#777777;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:17px;
+    line-height:25px;
+}
+.leaflet-popup-tip-container .leaflet-popup-tip
+{
+    background-color:#fff;
+}
+.leaflet-container a.leaflet-popup-close-button
+{
+    right:10px;
+    top:10px;
+}
